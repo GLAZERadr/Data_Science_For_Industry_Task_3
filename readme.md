@@ -1,6 +1,7 @@
 # Analisis Dataset E-commerce dan Prediksi Customer Lifetime Value (CLV)
 
 Nama    : Adrian
+
 Jurusan : S1 Data sains
 
 ## E-commerce
