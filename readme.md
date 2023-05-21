@@ -17,7 +17,6 @@ E-commerce adalah kegiatan penjualan produk online melalui internet. E-commerce 
 | UnitPrice | Harga per unit |
 | Quantity | Jumlah barang |
 | Country | Negara |
-| --- | --- |
 
 Berdasarkan data yang diberikan kita dapat bekerja untuk melakukan beberapa analisa, analisa yang dapat dilakukan adalah sebagai berikut
 1. Analisa Tren Penjualan Secara Periodik
