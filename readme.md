@@ -6,31 +6,36 @@ Jurusan : S1 Data sains
 
 ## E-commerce
 
-Selamat datang di proyek Analisis Dataset E-commerce dan Prediksi Customer Lifetime Value (CLV)! Dalam proyek ini, kami akan melakukan analisis terhadap dataset e-commerce dan mencoba memprediksi Customer Lifetime Value (CLV) untuk periode 3 bulan. Berikut adalah informasi penting tentang proyek ini.
-Deskripsi Proyek
+E-commerce adalah kegiatan penjualan produk online melalui internet. E-commerce merupakan kegiatan penjualan produk online melalui internet melalui internet. Pada dataset E-commerce diberikan beberapa atribut sebagai berikut.
 
-Proyek ini bertujuan untuk menganalisis dataset e-commerce yang berisi informasi tentang pelanggan, transaksi, produk, dan faktor lain yang relevan. Kami akan melakukan eksplorasi data, visualisasi, dan analisis statistik untuk mendapatkan wawasan tentang perilaku pelanggan, tren penjualan, dan faktor-faktor yang berpengaruh pada CLV.
+| Atribut | Keterangan |
+| --- | --- |
+| InvoiceId | ID Transaksi |
+| CustomerID | ID pelanggan |
+| InvoiceNo | Nomor faktur |
+| InvoiceDate | Tanggal faktur |
+| UnitPrice | Harga per unit |
+| Quantity | Jumlah barang |
+| Country | Negara |
+| --- | --- |
 
-Selain itu, kami akan menggunakan teknik pemodelan machine learning untuk membangun model prediksi CLV. Kami akan memanfaatkan fitur-fitur yang tersedia dalam dataset untuk membuat prediksi CLV pelanggan untuk periode 3 bulan ke depan. Hal ini akan membantu kami dalam memahami nilai pelanggan dan mengambil keputusan yang lebih baik dalam strategi bisnis.
-Struktur Proyek
+Berdasarkan data yang diberikan kita dapat bekerja untuk melakukan beberapa analisa, analisa yang dapat dilakukan adalah sebagai berikut
+1. Analisa Tren Penjualan Secara Periodik
+2. Membandingkan Daya Beli Tiap Negara
+3. Analisa Item Yang Paling Banyak Dibeli
+4. Analisa Item Yang Banyak Dibeli Tiap Negara
+5. Analisa Harga Item
+6. Analisa Item Yang Paling Banyak Dilakukan Refund
+7. Analisa Negara Yang Paling Sering Melakukan Refund
+8. Analisa Customer Yang Paling Sering Melakukan Refund
+9. Analisa Customer Yang Paling Sering Melakukan Pembelian
+10. Analisa Customer Yang Paling Sering Melakukan Pembelian Tiap Negara
+11. Analisa Customer Yang Paling Sering Melakukan Pembelian Tiap Bulan
+12. Analisa Customer Yang Paling Sering Melakukan Pembelian Tiap Tahun
+13. Analisa Korelasi Antara Kuantitas dan Harga Barang
 
-Proyek ini terdiri dari beberapa tahap yang terorganisir dengan baik. Berikut adalah struktur proyek yang diusulkan:
-
-1. Pengenalan: Menyediakan deskripsi proyek, tujuan, dan informasi tentang dataset yang digunakan.
-
-2. Eksplorasi Data: Melakukan pemahaman awal tentang dataset, memeriksa keberadaan missing values, dan melakukan preprosesing data yang diperlukan. Melakukan visualisasi data untuk mendapatkan wawasan awal.
-
-3. Analisis Pelanggan: Menganalisis profil pelanggan, seperti distribusi demografis, kebiasaan belanja, dan pola pembelian.
-
-4. Analisis Produk: Menganalisis produk yang ditawarkan, seperti produk terlaris, kategori yang paling banyak dibeli, dan tren penjualan.
-
-5. Analisis Transaksi: Menganalisis data transaksi, seperti frekuensi pembelian, nilai transaksi rata-rata, dan tren waktu.
-
-6. Prediksi CLV: Memilih fitur yang relevan untuk memprediksi CLV, membagi data menjadi set pelatihan dan pengujian, dan melatih model machine learning untuk memprediksi CLV pelanggan untuk periode 3 bulan ke depan.
-
-7. Evaluasi Model: Mengevaluasi kinerja model prediksi CLV menggunakan metrik yang sesuai dan melakukan analisis hasil prediksi.
-
-8. Kesimpulan: Menyajikan kesimpulan dari analisis dataset e-commerce dan hasil prediksi CLV. Memberikan wawasan dan rekomendasi berdasarkan temuan proyek.
+## Customer Lifetime Value (CLV)
+Customer Lifetime Value (CLV) adalah nilai keuntungan customer terakhir. CLV adalah nilai keuntungan customer terakhir pada satu tahun terakhir. Melalui dataset yang diberikan maka dapat dilakukan analisa customer lifetime value dengan menggunakan metode ...., setelah itu akan dilakukan prediksi customer lifetime value dalam periode 3 bulan menggunakan model machine learning ....
 
 ## Setup Proyek
 
